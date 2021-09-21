@@ -1,0 +1,15 @@
+.CounterApp {
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        
+        button {
+            width: 150px;
+            margin-left: 32px;
+        }
+    }
+}

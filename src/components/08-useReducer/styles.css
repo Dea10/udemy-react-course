@@ -1,0 +1,37 @@
+
+body {
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.todoList {
+    width: 35%;
+}
+
+.taskItem {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+
+.addItem {
+    width: 35%;
+}
+
+.addButton {
+    margin-top: 4px;
+}
+
+.taskText {
+    cursor: pointer;
+}
+
+.complete {
+    color: gray;
+    text-decoration: line-through;
+}
